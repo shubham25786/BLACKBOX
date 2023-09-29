@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+body{background:rgb(65, 64, 64);
+    width: 100%;
+    height: 100vh;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-right{
+  padding: 10px;
+  margin-right: 15px;
+  align-items: right;
+  position: relative;
+  display: flex;
+}
+.fes-div{
+  display: flex;
+  position: relative;
+  
+  top: 0;
+
+}
+nav{ height: 65px;
+  padding: 3px 2%;
+  justify-content:space-between ; 
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+.home:hover{
+  cursor: pointer;
+}
+div a:hover{
+  color: black;
+  
+
+}
+.fes-div a img{
+  border-radius: 50%;
+  
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #fff;
+  color: black; 
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black; 
+  color: #fff; 
+}
+/* button*/
+ .nav-right button {
+  color: #14afce;
+  float: right;
+  font-size: 10px;
+  padding: 15px;
+  background-color: black;
+  border: 1px solid #167dbc;
+  border-radius: 4px;
+  position: relative;
+  margin: 4px;
+
+  box-shadow: #1c89bb;
+}
+button:hover{
+      background-color: white;
+      color: black;
+}
+/* search button */
+.search-bar {
+border: none;
+padding: 10px;
+width: 70%;
+height: 30px;
+font-size: 16px;
+}
+.search-button{
+color: #040506;
+}
+
+
+
+.home button{
+width: 100px;
+height: 35px;
+color: #1c89bb;
+background-color: #040b0e;
+border: 1px solid #167dbc;
+justify-content: space-between;
+box-shadow: #1c89bb;
+
+}
+.home button a{
+color: #f9f5f5;
+text-decoration: none;
+
+
+}
+
+ .home button:hover{
+  cursor: pointer;
+background: #03e9f4;
+border-radius: 5px;
+box-shadow: 0 0 5px #03e9f4;
+
+}
+
+.pan p{
+  color: #b61d1d;
+  width: 50px;
+  font: bold;
+} 
+#hommain{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+#hommain:hover{
+  color: #03e9f4;
+  
+
+} 
+
+
+
+header{
+    height: 95%;
+    width: 95%;
+    /* background: black; */
+    position: relative;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(15, 3, 3);
+    overflow: hidden;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    /* margin-bottom: 35px; */
+
+} 
+header::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-radius: 20px;
+    z-index: -1; 
+}  
+
+header::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, transparent , #ffff);
+    
+   
+}  
+ header video{
+    position: absolute;
+    height: 140%;
+    /* width: -20%; */
+    top: -150px;
+    z-index: -1;
+    opacity: .5;
+} 
+header nav{
+    width: 100%;
+    height: 8%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-between;
+
+}
+header .name{
+    display: flex;
+}
+header h1{
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+/* header h1:hover{
+    transform: scale(1.2);
+} */
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+header ul li{
+    padding: 8px 100px
+
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+header ul li a:hover{
+    color: aquamarine;
+}
+header ul li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: greenyellow;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform o.3s ease;
+}
+header ul li a:hover::after{
+    transform: scaleX(1);
+}
+
+
+header .search input::placeholder{
+ color: aliceblue;
+}
+
+.space{
+    height: 390px;
+    width: 500px;
+    /* border: 2px solid white;  */
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.space .space-in{
+    padding-top: 180px;
+}
+.space .space-in p{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.space .space-in button{
+    height: 40px;
+    width: 70px; 
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.space .space-in button:hover{
+    cursor: pointer;
+    background: rgb(19, 214, 78);
+    color: aliceblue;
+    transition: 1s ease;
+    direction: none;
+}
+.space .space-in button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+
+}
+.space .space-in button a:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+.anime-recommend a img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    
+  } 
+  
+  .anime-recommend{
+    width: 1445px;
+    height: 380px;
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    scroll-behavior: smooth;
+    
+  }
+  .anime-recommend div{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto auto auto auto; 
+    grid-gap: 20px;
+    /* padding: 10px; */
+    flex: none;
+  }
+  .anime-recommend div img{
+    width: 220px;
+    height: 300px;
+    /* box-shadow: 5px 5px 15px black; */
+    border-radius: 15px;
+  }
+  .anime-recommend::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .footer{
+  
+    height: 200px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 20px;
+    background: linear-gradient(gray,black);
+    /* margin: 10px; */
+    box-shadow: 5px 5px 20px rgb(30, 27, 27);
+  
+    /* border-top-style:dashed; */
+    border-top-width: 3px;
+    border-top-color:white;
+    border-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    
+  }
+  .footerin{
+    display: flex;
+  }
+  .links{
+  padding-left: 200px;
+  padding-top: 20px;
+  }
+  .links  h2{
+    color: #d1e5ff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  
+  }
+  .home{
+    padding-left: 200px;
+  }
+  .home  h2{
+    color: #d1e5ff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .footer a{
+    text-decoration: none;
+    color:aliceblue ;
+  }
+  .links li{
+    padding: 2px;
+  }
+  .home li{
+    padding: 2px;
+    color:aliceblue ;
+  }
+  .About li{
+    padding-left: 150px;
+    color: #f0f0f5;
+    
+  }
+  .About h2{
+    padding-top: 20px;
+    color: #d1e5ff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 180px;
+  }
+  .logo{
+    padding-top: 20px;
+    padding-left: 150px;
+  }
+  .logo img{
+    border-radius: 50%;
+  }
+  .footer h3{
+    color:#e98d14;
+    padding-left: 600px;
+    /* padding-top: 15px; */
+  }
+  .footer img:hover {
+    transform: scale(1.2);
+  }
+  .links:hover{
+    color: rgb(8, 7, 7);
+  }
+  .links a:hover{
+    background: rgb(9, 134, 223);
+  }
+  .links #ins:hover{
+    background: linear-gradient(white,rgb(222, 113, 131));
+  }
+  .links #whats:hover{
+    background:rgb(81, 224, 81) ;
+  }
+
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: #d1e5ff;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(black,skyblue);
+    border-radius: 10px;
+  }
+
+
+
+

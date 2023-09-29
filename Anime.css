@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif ;
+  box-sizing: border-box;
+}
+
+.nav-right{
+  padding: 10px;
+  margin-right: 15px;
+  align-items: right;
+  position: relative;
+  display: flex;
+}
+.fes-div{
+  display: flex;
+  position: relative;
+  
+  top: 0;
+
+}
+nav{ height: 65px;
+  padding: 3px 2%;
+  justify-content:space-between ; 
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 100%;
+  
+}
+.home:hover{
+  cursor: pointer;
+}
+div a:hover{
+  color: black;
+  
+
+}
+div a img{
+  border-radius: 50%;
+  
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #fff;
+  color: black; 
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black; 
+  color: #fff; 
+}
+/* button*/
+ .nav-right button {
+  color: #14afce;
+  float: right;
+  font-size: 10px;
+  padding: 15px;
+  background-color: black;
+  border: 1px solid #167dbc;
+  border-radius: 4px;
+  position: relative;
+  margin: 4px;
+
+  box-shadow: #1c89bb;
+}
+button:hover{
+      background-color: white;
+      color: black;
+}
+/* search button */
+.search-bar {
+border: none;
+padding: 10px;
+width: 70%;
+font-size: 16px;
+}
+.search-button{
+color: #040506;
+}
+
+
+
+.home button{
+width: 100px;
+height: 35px;
+color: #1c89bb;
+background-color: #040b0e;
+border: 1px solid #167dbc;
+justify-content: space-between;
+box-shadow: #1c89bb;
+
+}
+.home button a{
+color: #f9f5f5;
+text-decoration: none;
+
+
+}
+
+.home button:hover{
+  cursor: pointer;
+background: #03e9f4;
+border-radius: 5px;
+box-shadow: 0 0 5px #03e9f4;
+
+}
+
+p{
+  color: #b61d1d;
+  width: 50px;
+  font: bold;
+}
+
+/* for home button */
+#hommain{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+#hommain:hover{
+  color: #03e9f4;
+  
+
+}
+/* for photo  */
+
+.container3{
+  display: flex;
+}
+#im3{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h3{
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+#b3{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  border: 2px solid gray;
+}
+.card3{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;
+}
+
+.intro3{
+  height: 60px;
+  width: 400px;
+  /* left: 0; */
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 800px;
+  transition: .5s;
+
+}
+#b3:hover{
+  background: cyan;
+
+  transition: 0.5s ease-in-out;
+}
+#a3{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+  
+
+}
+.card3:hover{
+  cursor: pointer;
+}
+.card3:hover .intro3{
+  height: 120px;
+  top: 690px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+}
+
+.card3:hover h3{
+  opacity: 1;
+  visibility: visible;
+}
+.card3:hover #b3{
+  opacity: 1;
+  visibility: visible;
+
+}
+.card3:hover #im3{
+  transform: scale(1.1);
+  border: 2px solid gray;
+} 
+
+/* -------------- */
+.container2{
+  display: flex;
+}
+#im2{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h2 {
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+#b2{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  border: 2px solid gray;
+}
+.card2{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;  
+}
+
+.intro2{
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 500px;
+  transition: .5s;
+
+}
+#b2:hover{
+  background: cyan;
+  color: #040506;
+  transition: 0.5s ease-in-out;
+}
+#a2{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+  
+
+}
+.card2:hover{
+  cursor: pointer;
+}
+.card2:hover .intro2{
+  height: 120px;
+  top: 425px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+}
+
+.card2:hover h2{
+  opacity: 1;
+  visibility: visible;
+}
+.card2:hover #b2{
+  opacity: 1;
+  visibility: visible;
+}
+.card2:hover #im2{
+  transform: scale(1.1);
+  border: 2px solid gray;
+} 
+
+
+
+
+
+.container{
+  display: flex;
+}
+#im{
+  height: 250px;
+  width: 460px;
+  border-radius: 20px;
+  
+  
+
+}
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: #040506;
+   opacity: 0;
+  visibility: hidden; 
+}
+
+
+#b{
+  margin: 1px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden; 
+  border: 2px solid gray;
+}
+.card{
+  height: 250px;
+  width: 460px;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px solid gray;  
+}
+
+.intro{
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  color: #ffff;
+  top: 200px;
+  transition: .5s;
+
+}
+#b:hover{
+  background: cyan;
+  color: #040506;
+  transition: 0.5s ease-in-out;
+  
+}
+#a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card:hover .intro{
+  height: 120px;
+  top: 154px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+  z-index: 1o;
+}
+
+.card:hover h1{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover #b{
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover #im{
+  transform: scale(1.1);
+  border: 2px solid gray;
+  
+} 
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(black,rgb(3, 84, 154));
+  border-radius: 10px;
+}
+header{
+  height: 95%;
+  width: 95%;
+  padding-left: 8px;
+  /* padding-right: 15px; */
+  background: rgb(13, 1, 1); 
+  position: relative;
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(15, 3, 3);
+  overflow: hidden;
+ margin: 27px;
+ /* background: url(/vedio/Transformers_Avengers_\ Endgame\ Trailer\ Mashup!.mp4); */
+  
+
+} 
+body{background:rgb(65, 64, 64);
+  width: 100%;
+  height: 100%;
+  
+  align-items: center;
+  justify-content: center;
+}

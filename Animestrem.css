@@ -1,0 +1,438 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif ;
+  box-sizing: border-box;
+}
+body{
+  background:rgb(65, 64, 64);
+}
+
+header{
+  height: 98%;
+  width: 98%;
+  /* background: black; */
+  position: relative;
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgb(15, 3, 3);
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-bottom: 35px; */
+
+} 
+header::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  z-index: -1;
+}  
+header::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, transparent , #ffff);
+  
+ 
+}  
+
+
+
+.nav-right{
+  padding: 10px;
+  margin-right: 15px;
+  align-items: right;
+  position: relative;
+  display: flex;
+}
+.fes-div{
+  display: flex;
+  position: relative;
+  
+  top: 0;
+
+}
+nav{ height: 65px;
+  padding: 3px 2%;
+  justify-content:space-between ; 
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 100%;
+  position: relative;
+}
+.home:hover{
+  cursor: pointer;
+}
+div a:hover{
+  color: black;
+  
+
+}
+.fes-div a img{
+  border-radius: 50%;
+  
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #fff;
+  color: black; 
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black; 
+  color: #fff; 
+}
+/* button*/
+ .nav-right button {
+  color: #14afce;
+  float: right;
+  font-size: 10px;
+  padding: 15px;
+  background-color: black;
+  border: 1px solid #167dbc;
+  border-radius: 4px;
+  position: relative;
+  margin: 4px;
+
+  box-shadow: #1c89bb;
+}
+button:hover{
+      background-color: white;
+      color: black;
+}
+/* search button */
+.search-bar {
+border: none;
+padding: 10px;
+width: 70%;
+font-size: 16px;
+}
+.search-button{
+color: #040506;
+}
+
+
+
+.home button{
+width: 100px;
+height: 35px;
+color: #1c89bb;
+background-color: #040b0e;
+border: 1px solid #167dbc;
+justify-content: space-between;
+box-shadow: #1c89bb;
+
+}
+.home button a{
+color: #f9f5f5;
+text-decoration: none;
+
+
+}
+
+ .home button:hover{
+  cursor: pointer;
+background: #03e9f4;
+border-radius: 5px;
+box-shadow: 0 0 5px #03e9f4;
+
+}
+
+p{
+  color: #b61d1d;
+  width: 50px;
+  font: bold;
+} 
+#hommain{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+#hommain:hover{
+  color: #03e9f4;
+  
+
+} 
+/* ----------for video---------------- */
+
+.play-container{
+    
+    padding-top: 5px;
+    height: 500px;
+    
+  
+}
+
+.row{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding-left: 10px;;
+}
+.right-side{
+    flex-basis: 23%;
+    position: relative;
+    padding-left: 15px;
+    background: black;
+    
+}
+.right_side_box{
+  margin: 2px;
+  padding: 3px;
+  height: 480px;
+  background: lightslategray;
+  overflow:auto; 
+  width: 320px; 
+
+  
+}
+
+
+.play-vedio{
+    flex-basis: 50%;
+    margin-top: 0px;
+    background: black;
+
+
+}
+
+.left-side{
+    flex-basis: 22%;
+     
+    padding-left: 15px;
+    margin: 0px;
+    height: 505px;
+    background: #6c757d;
+}
+.row a{
+  text-decoration: none;
+}
+.Episode_button{
+  text-decoration: none;
+    height: 30px;
+    margin: 2px;
+    width: 50px;
+}
+.left-side h4{
+  color: #fff;
+  padding-left: 5px;
+  height: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+.left-side-p{
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+  background: #6c757d;
+}
+h3{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.right-side h4{
+  color: #f0f0f5;
+  font-size: 18px;
+  padding-left: 80px;
+
+}
+.texture{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 5px;
+  
+}
+#text{
+  padding: 1px;
+  margin: 2px;
+  border-top-left-radius: 5px;
+  text-decoration: none;
+}
+#text1{
+  padding: 1px;
+  margin: 2px;
+  text-decoration: none;
+  background: yellow;
+}
+#text2{
+  padding: 1px;
+  margin: 2px;
+  text-decoration: none;
+  background: lightgreen;
+}
+#text3{
+  padding: 1px;
+  margin: 2px;
+  text-decoration: none;
+  background: pink;
+  border-bottom-right-radius: 5px;
+}
+ .right_side_box button:hover{
+  background: cyan;
+}
+/* -----------------scroll-bar---------- */
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(black,skyblue);
+  border-radius: 10px;
+}
+
+
+.right_side_box::-webkit-scrollbar{
+  width: 15px;
+}
+
+.right_side_box::-webkit-scrollbar-track{
+  background: #d1e5ff;
+}
+.right_side_box::-webkit-scrollbar-thumb{
+  background: linear-gradient(black,rgb(12, 126, 202));
+  border-radius: 10px;
+}
+.left-side-p::-webkit-scrollbar{
+  width: 15px;
+}
+
+.left-side-p::-webkit-scrollbar-track{
+  background: #d1e5ff;
+}
+.left-side-p::-webkit-scrollbar-thumb{
+  background: linear-gradient(black,rgb(12, 126, 202));
+  border-radius: 10px;
+}
+/* ---------anime-recommendation--------- */
+
+
+.anime-recommend a img:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
+  
+} 
+
+.anime-recommend{
+  width: 1520px;
+  height: 400px;
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+}
+.anime-recommend div{
+  width: 100%;
+  display: grid; 
+  grid-template-columns: auto auto auto auto auto auto auto auto auto; 
+  grid-gap: 20px;
+  padding: 10px;
+  flex: none;
+}
+.anime-recommend div img{
+  width: 250px;
+  height: 340px;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 10px;
+}
+.anime-recommend::-webkit-scrollbar{
+  display: none;
+}
+/* --------footer--------- */
+.footer{
+
+  height: 200px;
+  background: linear-gradient(gray,black);
+  margin: 10px;
+  box-shadow: 5px 5px 20px rgb(30, 27, 27);
+  border-radius: 20px;
+  border-top-style:dashed;
+  border-top-width: 3px;
+  border-top-color:white;
+
+}
+.footerin{
+  display: flex;
+}
+.links{
+padding-left: 200px;
+padding-top: 20px;
+}
+.links  h2{
+  color: #d1e5ff;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+
+}
+.home{
+  padding-left: 200px;
+}
+.home  h2{
+  color: #d1e5ff;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color:aliceblue ;
+}
+.links li{
+  padding: 2px;
+}
+.home li{
+  padding: 2px;
+  color:aliceblue ;
+}
+.About li{
+  padding-left: 150px;
+  color: #f0f0f5;
+  
+}
+.About h2{
+  padding-top: 20px;
+  color: #d1e5ff;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding-left: 180px;
+}
+.logo{
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.logo img{
+  border-radius: 50%;
+}
+.footer h3{
+  color:#e38f19;
+  padding-left: 600px;
+  /* padding-top: 15px; */
+}
+.footer img:hover {
+  transform: scale(1.2);
+}
+.links:hover{
+  color: rgb(8, 7, 7);
+}
+.links a:hover{
+  background: rgb(9, 134, 223);
+}
+.links #ins:hover{
+  background: linear-gradient(white,rgb(222, 113, 131));
+}
+.links #whats:hover{
+  background:rgb(81, 224, 81) ;
+}
+
