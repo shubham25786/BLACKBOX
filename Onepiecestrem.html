@@ -140,10 +140,11 @@
           </div>
         </div>
         <div class="play-vedio">
-            <video autoplay muted id="myVideo"  width="790px" height="450px" height="505px" controls>
-                <source id="videoSource" src="streamvedios/One Piece !.mp4" type="video/mp4">
-            </video>
-            <span id="texttt" style="color: rgb(255, 255, 255); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;font-size: larger; margin: 10px;">Episode No 1</span> 
+            <!-- <video autoplay muted id="myVideo"  width="790px" height="450px"  controls>
+                <source id="videoSource" src="https://player.vimeo.com/video/871022190?h=2a56fc0b68" type="video/mp4">
+            </video>  -->
+            <iframe id="videoSource" title="vimeo-player" src="https://player.vimeo.com/video/871096262?h=676d48ca18"  width="790px" height="450px" frameborder="0"    allowfullscreen></iframe>
+           <span id="texttt" style="color: rgb(255, 255, 255); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;font-size: larger; margin: 10px;">Episode No 1</span> 
         </div>
         <div class="left-side">
             <img src="img/onepiece2.jpg" width="160px">
@@ -263,7 +264,7 @@ function Change_text9(){
 
 ChangeVideoButton1.addEventListener('click', function() {
   
-  videoSource.src = "streamvedios/One Piece !.mp4"; 
+  videoSource.src = "https://player.vimeo.com/video/871022190?h=2a56fc0b68"; 
   videoElement.load(); 
   videoElement.play(); 
 });
