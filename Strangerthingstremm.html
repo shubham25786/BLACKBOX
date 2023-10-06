@@ -40,7 +40,7 @@
             <!-- <video autoplay muted controls id="myVideo" width="1100px"  height="500px" poster="img/things.jpg">
                 <source id="videoSource" src="streamvedios/One Piece !.mp4" >
             </video> -->
-            <iframe title="vimeo-player" src="https://player.vimeo.com/video/871022190?h=2a56fc0b68" width="1100px" height="500px" frameborder="0"    allowfullscreen></iframe>
+            <iframe id="videoSource" width="1100px"  height="500px" poster="img/things.jpg" frameborder="0" src="https://mega.nz/embed/OmJmSSrJ#rA4JZFVhqdC3g7UsIU4mXbAvYJwwJyBth1ZUmgme9Vw" allowfullscreen ></iframe>
         </div>
         <div class="left-side">
             <img src="img/stranger-things-photo.jpg" width="160px">
@@ -66,17 +66,13 @@
     </div>
     <div class="epi">
         <button id="changeVideoButton1"><a href="#">EPISODE 1</a></button>
-        <button><a href="#">EPISODE 2</a></button>
-        <button><a href="#">EPISODE 3</a></button>
-        <button><a href="#">EPISODE 4</a></button>
-        <button><a href="#">EPISODE 5</a></button>
-        <button><a href="#">EPISODE 6</a></button>
-        <button><a href="#">EPISODE 7</a></button>
-        <button><a href="#">EPISODE 8</a></button>
-        <button><a href="#">EPISODE 9</a></button>
-        <button><a href="#">EPISODE 10</a></button>
-        <button><a href="#">EPISODE 12</a></button>
-        <button><a href="#">EPISODE 13</a></button>
+        <button id="changeVideoButton2"><a href="#">EPISODE 2</a></button>
+        <button id="changeVideoButton3"><a href="#">EPISODE 3</a></button>
+        <button id="changeVideoButton4"><a href="#">EPISODE 4</a></button>
+        <button id="changeVideoButton5"><a href="#">EPISODE 5</a></button>
+        <button id="changeVideoButton6"><a href="#">EPISODE 6</a></button>
+        <button id="changeVideoButton7"><a href="#">EPISODE 7</a></button>
+        <button id="changeVideoButton8"><a href="#">EPISODE 8</a></button>
     </div>
     <div class="season">
         <button><a href="#">SEASON 2</a></button>
@@ -107,8 +103,6 @@
         <a href="#"><img src="img/secredgame-photo.jpg" ></a>
         <a href="#"><img src="img/asur2photo2.webp" ></a>
         <a href="#"><img src="img/family-photo.jpg" ></a> 
-        <a href="#"><img src="#"></a>
-
     </div>
     
 </div>
@@ -149,14 +143,68 @@
 const videoElement = document.getElementById('myVideo');
 const videoSource = document.getElementById('videoSource');
 const ChangeVideoButton1 = document.getElementById('changeVideoButton1');
+const ChangeVideoButton2 = document.getElementById('changeVideoButton2');
+const ChangeVideoButton3 = document.getElementById('changeVideoButton3');
+const ChangeVideoButton4 = document.getElementById('changeVideoButton4');
+const ChangeVideoButton5 = document.getElementById('changeVideoButton5');
+const ChangeVideoButton6 = document.getElementById('changeVideoButton6');
+const ChangeVideoButton7 = document.getElementById('changeVideoButton7');
+const ChangeVideoButton8 = document.getElementById('changeVideoButton8');
 
 ChangeVideoButton1.addEventListener('click', function() {
   
-  videoSource.src = "vedio\Avangers.mp4"; 
+  videoSource.src = "https://mega.nz/embed/OmJmSSrJ#rA4JZFVhqdC3g7UsIU4mXbAvYJwwJyBth1ZUmgme9Vw"; 
   videoElement.load(); 
   videoElement.play(); 
 });
 
+ChangeVideoButton2.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/6iIhiTTK#uUshOnPZXcvF4eSSMUEzGvDhY0rYOw75QrHZwk0wfx4" ; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton3.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/ujRQmKoB#poXy_4ba0iTJG2zbTQjGD7SAQeqd4-jcSCAn9XbzsjI"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton4.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/y3JDkBTT#-ZElP443iipr5FugCrpSz0QFRLz6EXzwn_zsLnl4tJI"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton5.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/TuBmWJgB#VVAfeQ9c8PGHWMGKhGd4VkHNLe3jPROwJeui0SRpjuI"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton6.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/jjJUCKYD#2WS0U4piJt2KWqTfcPZU9PYzozXInx_zsnfCjRfZMaI"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+ChangeVideoButton7.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/H2gFCQhJ#Hd8jsxxFhvetHjYCswU5RMKROXmUlV_uHTyKVd0o3qo"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton8.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/LiogGJRb#N55K-bpx8lAu61rwIZuw1mYDZBo4eV5sxusM9J15W2c"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
 </script>
 
 </body>
