@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut Icon" type="jpg"  href="img/logo.jpg"  >
+    <title>BLACKBOX</title>
+    <link rel="stylesheet" href="Seriestrem.css">
+    <script src="darkmode.js"></script>
+    
+</head>
+<body>
+<header>
+     <nav class="fes-div">
+        <div class="dark">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <button type="submit" class="search-button">Search</button>
+        </div>
+        <div >
+            <p>Movies</p>
+        </div>
+        <div class="home">
+            <a id="hommain" href="Main2.html">HOME</a>
+            <a id="hommain" href="Series.html">SERIES</a>
+            <a id="hommain" href="Anime.html">ANIME</a>
+        </div>
+        <div class="nav-right ">
+            <button onclick="toggleDarkMode()">Dark</button>
+            <img src="">
+            <img src="tub/more.png" alt="">
+            <a href="#"><img src="img/png-transparent-login-computer-icons-avatar-icon-monochrome-black-silhouette-thumbnail.png" 
+                alt="" height="45px"></a>
+        </div>
+    </nav> 
+    <h3>Watching Harry Potter</h3>
+   <div class="container  play-container">
+    <div class="row">
+     
+        <div class="play-vedio" >
+            
+            <iframe id="videoSource" width="1437px"  height="500px"  src="https://mega.nz/embed/2rhm1CCB#uq14fD818lOuRSRNMD6B5EfKLcolSwT11kUvVlpaqFc" allowfullscreen ></iframe>
+        </div>
+        
+    </div>
+</div>  <br>
+ <div class="anime-recommend">
+     <div >
+        <a href="#" id="changeVideoButton1"><img src="img/harry1.1.jpg" ></a>
+        <a href="#" id="changeVideoButton2" ><img src="img/harry2.jpg" ></a>
+        <a href="#" id="changeVideoButton3"><img src="img/harry3.png" ></a>
+        <a href="#" id="changeVideoButton4"><img src="img/harry4.webp" ></a>
+        <a href="#" id="changeVideoButton5"><img src="img/harry5.jpg" ></a>
+        <a href="#" id="changeVideoButton6"><img src="img/harry6.jpg" ></a>
+        <a href="#" id="changeVideoButton7"><img src="img/harry7.jpg" ></a>
+        <a href="#" id="changeVideoButton8"><img src="img/harry8.jpg" ></a> 
+    </div>
+    
+</div>
+</header>
+<footer>
+    <div class="footer">
+        <div class="footerin">
+            <div class="links">
+                <h2>Links.</h2>
+                <li > <a id="ins" href="Instagram.com">Instagram</a> </li>
+                <li> <a href="Facbook.com">Facbook</a></li>
+                <li ><a href="Twitter.com">Twitter</a></li>
+                <li  ><a id="whats" href="Whatsapp.com">Whatsapp</a></li>
+            </div>
+            <div class="home">
+                 <h2>Help.</h2> 
+                <li ><a href="Main2.html">Home</a></li> 
+                <li> <a href="Anime.html">Anime</a></li> 
+                <li><a href="Movie.html">Movies</a></li>
+                <li><a href="Series.html">Web-Series</a></li>
+            </div>
+            <div class="About">
+                <h2>About.</h2>
+                <li> Streming Website for Anime Series Movies</li>
+                <li>No CopyRight</li>
+                <li>For Collage Project</li>
+                <li>For Fun Only</li>
+             </div>
+            <div class="logo">
+                <img src="img/logo.jpg" height="150px">
+            </div>
+        </div>
+        <h3> Developed by Shubham Maurya</h3>
+    </div>
+
+</footer>
+<script>
+const videoElement = document.getElementById('myVideo');
+const videoSource = document.getElementById('videoSource');
+const ChangeVideoButton1 = document.getElementById('changeVideoButton1');
+const ChangeVideoButton2 = document.getElementById('changeVideoButton2');
+const ChangeVideoButton3 = document.getElementById('changeVideoButton3');
+const ChangeVideoButton4 = document.getElementById('changeVideoButton4');
+const ChangeVideoButton5 = document.getElementById('changeVideoButton5');
+const ChangeVideoButton6 = document.getElementById('changeVideoButton6');
+const ChangeVideoButton7 = document.getElementById('changeVideoButton7');
+const ChangeVideoButton8 = document.getElementById('changeVideoButton8');
+
+ChangeVideoButton1.addEventListener('click', function() {
+  
+  videoSource.src = "https://mega.nz/embed/2rhm1CCB#uq14fD818lOuRSRNMD6B5EfKLcolSwT11kUvVlpaqFc"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton2.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/rqBElbJC#IKSDGZoYgoXJcRUlMMeT2Z8o_xXAdK-B5jUAT0IGqRg" ; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton3.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/Gu5nWZpT#fj9j3aHwdriwijhs_bHWclnoP3D3f2Jjv3NOBl6cEQU"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton4.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/WnpQERqQ#Ex1WmD4yBiG6nfr3yQL26y8s43mc6doloRnOaRaMGr8"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton5.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/m2AiCJAa#eZKfZX1ybWNflDSyMaigNG0iOGBVpu7h83SFb9i2IO4" ; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton6.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/ympDHRAC#ErAMUr2PfJQb3FFnkCIjxootF_j-Ebr0Lj1tUXZSlO0" ; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+ChangeVideoButton7.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/e6BQGCiI#hqKpWTpist02zZsRDp61o0iJvON3HM2Zx4Vahmb1R-0"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+
+ChangeVideoButton8.addEventListener('click', function() {
+  
+  videoSource.src ="https://mega.nz/embed/C65VVQzT#1-ZFbMCAAI12F9EPTWTzI5JlMFCuswvBm7sbaoMZl3A"; 
+  videoElement.load(); 
+  videoElement.play(); 
+});
+</script>
+
+</body>
+</html>
