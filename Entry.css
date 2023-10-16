@@ -54,4 +54,25 @@ h1{
   margin-top: 5%;
 }
 
+@media screen and (max-width: 600px)
+{
+  .image{
+    width: 200px;
+    /* margin-top: 10%; */
+    top: 100px;
+  }
+  h1{
+
+    font-size: 60px;
+    color: #f2ebeb;
+  
+  }
+  .content{
+    margin-top: 150px;
+}
+
+}
+  
+
+
 
