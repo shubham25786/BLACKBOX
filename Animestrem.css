@@ -474,5 +474,11 @@ padding-top: 20px;
     /* padding-top: 15px; */
     
   }
+  .play-container{
+    flex-wrap: wrap;
+  }
+  .body{
+    flex-wrap: wrap;
+  }
 }
 
