@@ -9,6 +9,7 @@
 
 .container3{
   display: flex;
+  flex-wrap: wrap;
 }
 #im3{
   height: 250px;
@@ -57,6 +58,8 @@ h3{
   color: #ffff;
   top: 800px;
   transition: .5s;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 #b3:hover{
@@ -332,4 +335,51 @@ body{background:rgb(65, 64, 64);
    /* background: url(/vedio/Transformers_Avengers_\ Endgame\ Trailer\ Mashup!.mp4); */
     
   } 
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track{
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(black,rgb(3, 84, 154));
+    border-radius: 10px;
+  }
+
+  .intro3{
+  height: 60px;
+  width: 400px;
+  /* left: 0; */
+  padding: 6px;
+  box-sizing: border-box;
+  position: block;
+  border-radius: 20px;
+  color: #ffff;
+  
+  transition: .5s;
+
+}
+
+
+.intro33 {
+  height: 60px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 20px;
+  /* color: #d22222; */
+  /* background: #ffff; */
+  bottom: 55px;
+  transition: .5s;
+
+}
+.intro33:hover{
+  height: 120px;
+  bottom: 55px;
+  background: rgb(255, 255, 255, 0.705);
+  border: 2px solid gray;
+  z-index: 1o;
+}
+
 }
